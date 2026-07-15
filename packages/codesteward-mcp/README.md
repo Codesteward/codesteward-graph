@@ -3,7 +3,7 @@
 MCP server that exposes a structural codebase graph as queryable tools for AI agents.
 
 Depends on [`codesteward-graph`](https://pypi.org/project/codesteward-graph/) for parsing.
-See the [full documentation and setup guide](https://github.com/bitkaio/codesteward-mcp).
+See the [full documentation and setup guide](https://github.com/Codesteward/codesteward-graph).
 
 ## Quick start (zero install)
 

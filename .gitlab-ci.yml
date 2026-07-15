@@ -11,13 +11,13 @@
 #   GH_RELEASE_TOKEN  — GitHub PAT with contents:write on this repo (masked, protected)
 #
 # Optional (hard-coded defaults shown):
-#   GH_REPO           — GitHub repo slug, e.g. "bitkaio/codesteward-mcp"
+#   GH_REPO           — GitHub repo slug, e.g. "Codesteward/codesteward-graph"
 #   GH_CLI_VERSION    — gh CLI version to download, e.g. "2.63.2"
 
 variables:
   UV_VERSION: "0.5"
   PYTHON_VERSION: "3.12"
-  GH_REPO: "bitkaio/codesteward-mcp"
+  GH_REPO: "Codesteward/codesteward-graph"
   GH_CLI_VERSION: "2.63.2"
   # Cache pip/uv downloads across jobs
   UV_CACHE_DIR: "$CI_PROJECT_DIR/.uv-cache"

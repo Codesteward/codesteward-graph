@@ -34,10 +34,10 @@ dependencies = [
 codesteward-mcp = "codesteward.mcp.server:main"
 
 [project.urls]
-Homepage   = "https://github.com/bitkaio/codesteward-mcp"
-Repository = "https://github.com/bitkaio/codesteward-mcp"
-Issues     = "https://github.com/bitkaio/codesteward-mcp/issues"
-Changelog  = "https://github.com/bitkaio/codesteward-mcp/blob/main/CHANGELOG.md"
+Homepage   = "https://github.com/Codesteward/codesteward-graph"
+Repository = "https://github.com/Codesteward/codesteward-graph"
+Issues     = "https://github.com/Codesteward/codesteward-graph/issues"
+Changelog  = "https://github.com/Codesteward/codesteward-graph/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 # Re-export language extras so users can do: uv add codesteward-mcp[graph-all]

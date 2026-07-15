@@ -1,0 +1,27 @@
+backend_connected: true
+duration_ms: 3672
+edges:
+  calls: 249
+  depends_on: 9
+  extends: 1
+  imports: 21
+  total: 280
+  written_to_neo4j: 280
+files_parsed: 7
+graph_backend: graphqlite
+incremental: false
+language: typescript
+mode: full
+neo4j_connected: false
+nodes:
+  class: 6
+  expression: 3
+  file: 8
+  function: 61
+  total: 81
+  variable: 3
+  written_to_neo4j: 81
+parse_errors: []
+repo_id: stacksmith-vscode
+status: ok
+tenant_id: local

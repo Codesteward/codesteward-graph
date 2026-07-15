@@ -14,7 +14,7 @@
 # codesteward-taint binary — Go stdlib CVEs
 #
 # The bundled /usr/local/bin/codesteward-taint binary is downloaded from the
-# upstream bitkaio/codesteward-taint release. The only published release
+# upstream Codesteward/codesteward-taint release. The only published release
 # (v0.1.0) was built with Go 1.22.12 and inherits a set of Go stdlib CVEs.
 # These cannot be fixed from this repo — they require the upstream project
 # to tag a new release built with a patched Go toolchain.

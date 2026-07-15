@@ -54,9 +54,9 @@ RUN apk add --no-cache curl \
  && if [ "${TAINT_VERSION}" != "none" ]; then \
       ARCH=$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/') \
    && if [ "${TAINT_VERSION}" = "latest" ]; then \
-        URL="https://github.com/bitkaio/codesteward-taint/releases/latest/download/codesteward-taint-linux-${ARCH}"; \
+        URL="https://github.com/Codesteward/codesteward-taint/releases/latest/download/codesteward-taint-linux-${ARCH}"; \
       else \
-        URL="https://github.com/bitkaio/codesteward-taint/releases/download/v${TAINT_VERSION}/codesteward-taint-linux-${ARCH}"; \
+        URL="https://github.com/Codesteward/codesteward-taint/releases/download/v${TAINT_VERSION}/codesteward-taint-linux-${ARCH}"; \
       fi \
    && curl -fsSL "${URL}" -o /opt/taint/codesteward-taint \
    && chmod +x /opt/taint/codesteward-taint; \
@@ -92,7 +92,7 @@ FROM python:${PYTHON_VERSION}-slim
 
 LABEL org.opencontainers.image.title="Codesteward MCP Graph Server"
 LABEL org.opencontainers.image.description="Structural codebase graph server over MCP (HTTP+SSE / stdio)"
-LABEL org.opencontainers.image.source="https://github.com/bitkaio/codesteward-mcp"
+LABEL org.opencontainers.image.source="https://github.com/Codesteward/codesteward-graph"
 
 # Apply outstanding Debian security updates on top of the python:slim base.
 # The upstream image is rebuilt on a slower cadence than Debian security

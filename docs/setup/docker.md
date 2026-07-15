@@ -41,7 +41,7 @@ query passthrough uses Gremlin instead of Cypher.
 docker run -p 3000:3000 \
   -v /path/to/your/repo:/repos/project:ro \
   -e NEO4J_PASSWORD=secret \
-  ghcr.io/bitkaio/codesteward-mcp:latest
+  ghcr.io/codesteward/codesteward-graph:latest
 ```
 
 ## Connecting AI tools to the Docker server

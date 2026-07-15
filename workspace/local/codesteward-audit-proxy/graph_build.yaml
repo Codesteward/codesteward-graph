@@ -1,0 +1,24 @@
+backend_connected: true
+duration_ms: 6356
+edges:
+  calls: 765
+  imports: 121
+  total: 886
+  written_to_neo4j: 886
+files_parsed: 26
+graph_backend: graphqlite
+incremental: false
+language: go
+mode: full
+neo4j_connected: false
+nodes:
+  class: 42
+  external: 4
+  file: 26
+  function: 160
+  total: 232
+  written_to_neo4j: 232
+parse_errors: []
+repo_id: codesteward-audit-proxy
+status: ok
+tenant_id: local

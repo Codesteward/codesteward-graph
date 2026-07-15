@@ -18,7 +18,7 @@ If you believe you've found a security vulnerability in Codesteward, please
 the following channels:
 
 - **GitHub Security Advisories**
-  (preferred): <https://github.com/Codesteward/codesteward/security/advisories/new>
+  (preferred): <https://github.com/Codesteward/codesteward-graph/security/advisories/new>
 - **Email**: `security@bitkaio.com`
 
 Include:
@@ -53,7 +53,7 @@ We follow **coordinated disclosure**:
 In scope:
 
 - The `codesteward-graph` and `codesteward-mcp` Python packages
-- The published `ghcr.io/Codesteward/codesteward` container images
+- The published `ghcr.io/codesteward/codesteward-graph` container images
 - GitHub Actions workflows in this repository
 
 Out of scope:

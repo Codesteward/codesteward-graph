@@ -156,7 +156,7 @@ jobs:
           persist-credentials: false
 
       # OCI references must be lowercase. `github.repository` preserves the
-      # original org/repo casing (e.g. "Codesteward/codesteward"), which
+      # original org/repo casing (e.g. "Codesteward/codesteward-graph"), which
       # breaks tooling like syft that does not auto-normalize. Export a
       # lowercased copy once and reuse it downstream.
       - name: Compute lowercased image name

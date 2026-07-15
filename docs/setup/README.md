@@ -65,12 +65,12 @@ If you prefer to configure manually, or need per-tool details:
 
 ## Enabling taint analysis (optional)
 
-Place the [`codesteward-taint`](https://github.com/bitkaio/codesteward-taint/releases)
+Place the [`codesteward-taint`](https://github.com/Codesteward/codesteward-taint/releases)
 binary anywhere on your `PATH`:
 
 ```bash
 # macOS (Apple Silicon)
-curl -L https://github.com/bitkaio/codesteward-taint/releases/latest/download/codesteward-taint-darwin-arm64 \
+curl -L https://github.com/Codesteward/codesteward-taint/releases/latest/download/codesteward-taint-darwin-arm64 \
      -o /usr/local/bin/codesteward-taint
 chmod +x /usr/local/bin/codesteward-taint
 ```

@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://pypi.org/project/codesteward-mcp/"><img src="https://img.shields.io/pypi/v/codesteward-mcp?color=0078d4&label=codesteward-mcp" alt="PyPI codesteward-mcp"></a>
   <a href="https://pypi.org/project/codesteward-graph/"><img src="https://img.shields.io/pypi/v/codesteward-graph?color=00b4d8&label=codesteward-graph" alt="PyPI codesteward-graph"></a>
-  <a href="https://github.com/bitkaio/codesteward/releases"><img src="https://img.shields.io/github/v/release/bitkaio/codesteward?color=1a1a2e&label=release" alt="GitHub Release"></a>
+  <a href="https://github.com/Codesteward/codesteward-graph/releases"><img src="https://img.shields.io/github/v/release/Codesteward/codesteward-graph?color=1a1a2e&label=release" alt="GitHub Release"></a>
   <a href="https://pypi.org/project/codesteward-mcp/"><img src="https://img.shields.io/pypi/pyversions/codesteward-mcp" alt="Python Versions"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue" alt="License"></a>
 </p>
@@ -71,7 +71,7 @@ Uses **GraphQLite** by default: an embedded SQLite graph that persists to `~/.co
 
 To remove everything: `uvx --from "codesteward-mcp[graph-all,graphqlite]" codesteward-mcp setup --uninstall`
 
-**Prerequisites:** [uv](https://docs.astral.sh/uv/) · *(optional)* [`codesteward-taint`](https://github.com/bitkaio/codesteward-taint/releases) on `PATH`
+**Prerequisites:** [uv](https://docs.astral.sh/uv/) · *(optional)* [`codesteward-taint`](https://github.com/Codesteward/codesteward-taint/releases) on `PATH`
 
 #### Usage — open any repo and start asking
 
@@ -163,7 +163,7 @@ Same workflow as the Neo4j stack — all named query templates work identically.
 docker run -p 3000:3000 \
   -v /path/to/your/repo:/repos/project:ro \
   -e NEO4J_PASSWORD=secret \
-  ghcr.io/bitkaio/codesteward-mcp:latest
+  ghcr.io/codesteward/codesteward-graph:latest
 ```
 
 For full setup instructions covering all AI tools, see the **[setup guides](docs/setup/)**.
@@ -234,12 +234,12 @@ docker build --build-arg TAINT_VERSION=0.1.0 -t codesteward-mcp:taint .
 ### Standalone
 
 Download a pre-built binary from the
-[codesteward-taint releases](https://github.com/bitkaio/codesteward-taint/releases) and place it
+[codesteward-taint releases](https://github.com/Codesteward/codesteward-taint/releases) and place it
 on `PATH`:
 
 ```bash
 # macOS (Apple Silicon)
-curl -L https://github.com/bitkaio/codesteward-taint/releases/latest/download/codesteward-taint-darwin-arm64 \
+curl -L https://github.com/Codesteward/codesteward-taint/releases/latest/download/codesteward-taint-darwin-arm64 \
      -o /usr/local/bin/codesteward-taint
 chmod +x /usr/local/bin/codesteward-taint
 ```
@@ -302,7 +302,7 @@ mypy src/
 
 ## Releases
 
-See [CHANGELOG.md](CHANGELOG.md) for the full history or browse [GitHub Releases](https://github.com/bitkaio/codesteward/releases).
+See [CHANGELOG.md](CHANGELOG.md) for the full history or browse [GitHub Releases](https://github.com/Codesteward/codesteward-graph/releases).
 
 ## License
 

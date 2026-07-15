@@ -3,7 +3,7 @@
 Multi-language structural code graph builder — parses source repositories into
 `LexicalNode` + edge data and writes to Neo4j or JanusGraph.
 
-Part of the [Codesteward MCP](https://github.com/bitkaio/codesteward-mcp) project.
+Part of the [Codesteward MCP](https://github.com/Codesteward/codesteward-graph) project.
 For full documentation, setup guides, and the MCP server, see the main repository.
 
 ## What it does

@@ -1,0 +1,27 @@
+backend_connected: true
+duration_ms: 17985
+edges:
+  calls: 1756
+  depends_on: 13
+  extends: 19
+  guarded_by: 22
+  imports: 348
+  total: 2158
+  written_to_neo4j: 2158
+files_parsed: 62
+graph_backend: graphqlite
+incremental: false
+language: python
+mode: full
+neo4j_connected: false
+nodes:
+  class: 111
+  external: 6
+  file: 63
+  function: 540
+  total: 720
+  written_to_neo4j: 720
+parse_errors: []
+repo_id: migratowl
+status: ok
+tenant_id: local

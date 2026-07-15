@@ -1,0 +1,26 @@
+backend_connected: true
+duration_ms: 20434
+edges:
+  calls: 1838
+  depends_on: 23
+  extends: 29
+  guarded_by: 5
+  imports: 235
+  total: 2130
+  written_to_neo4j: 2130
+files_parsed: 40
+graph_backend: graphqlite
+incremental: false
+language: python
+mode: full
+neo4j_connected: false
+nodes:
+  class: 81
+  file: 42
+  function: 574
+  total: 697
+  written_to_neo4j: 697
+parse_errors: []
+repo_id: codesteward
+status: ok
+tenant_id: local
